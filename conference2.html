@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Conference</title>
+	<style type="text/css">
+
+		a {
+			margin-left: 20px;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration:none;
+			color: white;
+			}
+		h1,h2 {
+			color: #FF8C00;
+			}
+		p {
+			font-size: 18px;
+			}
+		li {
+			font-size: 18px;
+			}
+
+		#navigation , #footer {
+			padding: 10px;
+			background-color: #696969;
+			color: white;
+			}
+		#columnPara {
+			column-count:3;
+			column-rule: 1px dashed lightblue; }
+		.rightClass {
+			float:right;
+			}
+		a:hover {
+			text-decoration:underline;
+			color:yellow;
+			}
+
+			#formDiv {
+				border-radius: 5px;
+				background-color: #f2f2f2;
+				padding: 20px;
+				}
+				input[type=text], select {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				}
+				input[type=submit] {
+				background-color:#FF8C00;
+				font-size:18px;
+				font-weight:bold;
+				margin: 10px;
+				padding:5px;
+				width: 10%;
+				border-radius:10px;
+				color:#FFFFFF;}
+				input[type=submit]:hover {
+				background-color: #45a049;
+				}
+				
+				
+				
+				
+
+				
+			
+
+	</style>
+</head>
+
+<body>
+	<div id="navigation">
+		<a href="#1">Home</a>
+		<a href="#2">Call for papers</a>
+		<a href="#3">Committees </a>
+		<a href="#4">Register</a>
+		<a href="#5">Contact</a>
+		<a class="rightClass" href="#6" >Sign In </a>
+		</div>
+		<img src="FICC2018.png" class="rightClass">
+
+		<div id="content">
+			<h1> About Conference </h1>
+
+			<p id="columnPara">
+				Information and Communication is playing an increasing role in society and within our lives.
+				Recognizing this, FICC 2018 aims to provide a forum for researchers from both academia and
+				industry to share their latest research contributions, future vision in the field and potential
+				impact across industries. Join us, April 5-6, to explore discovery, progress, and achievements
+				related to Communication, Data Science, Computing and Internet of Things. Click here for
+				conference topics. The conference will provide its attendees an uncommon opportunity to
+				expand their network beyond their immediate professional environment. It is a unique chance to
+				work with other accomplished individuals from diverse areas towards the common goal of
+				shaping the future of the communication, computing and society. FICC is part of the SAI
+				Conferences, a group of annual conferences produced by The Science and Information (SAI)
+				Organization, based in the United Kingdom. Previous conferences include Future Technologies
+				Conference (FTC) in San Francisco, Intelligent Systems Conference (IntelliSys) in London and
+				Computing Conference in London. Authors are kindly invited to submit their papers/ posters/
+				demo proposals as per the schedule below
+
+			<h1> Submission Guidlines </h1>
+			</p>
+			<p>
+				Papers are accepted either through the online submission tool or email at
+				FICC@SAIConference.com. For those unable to use the Online System and are emailing, please
+				include a cover letter with author details, university or country information, and any other author
+				related data.
+			<ul>
+				<li> .docx/.pdf/Latex PDF file formats are accepted </li>
+				<li> Do not include author details, university or country information in the manuscript. This
+					is a double-blind peer review process. Author information should be supplied using the
+					manuscript submission form online or in the cover letter for email submissions. </li>
+				<li> Please ensure all articles are proofread and checked for accuracy prior to submission.
+					Changes cannot be made during the review process. If accepted, minor revisions may be
+					made prior to final submission. </li>
+
+
+			</ul>
+		</div>
+
+		<div id="formDiv">
+
+			<h2> Submit Your Paper here!</h2>
+			<form action="/action_page.php">
+				<label for="fname ">First Author</label>
+				<input type="text" id="fname" name="firstname" placeholder="eg: - A.M. Rahul" required>
+				<label for="email">Email</label>
+				<input type="text" id="email" name="email" required>
+				<label for="lname ">Second Auther</label>
+				<input type="text" id="lname" name="lastname" placeholder="eg: - A.M. Rahul">
+				<br> <br>
+				<label for="gender">Gender : </label>
+				<input type="radio" name="gender"> Male
+				<input type="radio" name="gender"> Female <br> <br>
+				<label for="track">Track:</label>
+				<input type="checkbox" name="track1 "> Computer Graphics
+				<input type="checkbox" name="track2"> E-Commerce
+				<input type="checkbox" name="track3"> Web technologies
+				<input type="checkbox" name="track4"> IoT
+				<br> <br>
+				<label for="country ">Country</label>
+				<select id="country" name="country">
+					<option value="australia">Australia</option>
+					<option value="canada ">Canada</option>
+					<option value="usa">USA</option>
+					<input value="Submit" type="submit"><br><br><br>
+			</form>
+		</div>
+		<div id="footer">
+			Copyright &copy;
+
+		</div>
+
+		<img src="badbad.gif">
+</body>
+
+</html>
